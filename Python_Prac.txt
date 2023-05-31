@@ -1,0 +1,16 @@
+
+##############     LINEAR REGRESSION     ############################
+
+# import pandas as pd
+# import seaborn as sns
+# from matplotlib import pyplot as plt
+# from sklearn import linear_model
+# 
+# df=pd.read_csv("insurance_data.csv")
+# 
+# # a=sns.lmplot(x='Age',y='Premium',data=df)
+# # plt.show()
+# 
+# reg=linear_model.LinearRegression()
+# reg.fit(df[['Age']],df[['Premium']])
+# print(reg.predict([[45]]))
